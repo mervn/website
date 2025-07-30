@@ -1,0 +1,21 @@
+body {
+	background: #efefef;
+	color: #343434;
+	font: 1.5em/1.5 sans-serif;
+
+	/* normalize canvas */
+	margin: 0;
+	padding: 0;
+}
+
+.table-of-contents {
+	background: #ffffff;
+	color: #000000;
+	font: 1.0em/2.0 monospace;
+
+	/* if removed, beware of (top) margin collapses */
+	border: 4px dotted #000000;
+
+	/* influenced by the "rule of thirds" */
+	padding: 0 17% 0 34%;
+}
