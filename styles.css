@@ -8,6 +8,14 @@ body {
 	padding: 0;
 }
 
+footer {
+	color: #969ca3;
+	text-align: center;
+
+	/* if removed, beware of CSS specificity clause */
+	font-size: small;
+}
+
 .table-of-contents {
 	background: #ffffff;
 	color: #000000;
