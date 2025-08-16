@@ -1,3 +1,6 @@
+/* Normalize the canvas, to make style consistent across browsers */
+@import "/css/normalize.css";
+
 a:hover {
 	background-color: #efefef;
 }
@@ -9,10 +12,6 @@ body {
 	font-family: sans-serif;
 	font-size: 1.5em;
 	line-height: 1.5;
-
-	/* normalize canvas */
-	margin: 0;
-	padding: 0;
 }
 
 footer {
