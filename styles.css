@@ -1,11 +1,14 @@
 a:hover {
-	background: #efefef;
+	background-color: #efefef;
 }
 
 body {
-	background: #efefef;
+	background-color: #efefef;
 	color: #343434;
-	font: 1.5em/1.5 sans-serif;
+
+	font-family: sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5;
 
 	/* normalize canvas */
 	margin: 0;
@@ -14,16 +17,17 @@ body {
 
 footer {
 	color: #969ca3;
-	text-align: center;
-
-	/* if removed, beware of CSS specificity clause */
 	font-size: small;
+	text-align: center;
 }
 
 .table-of-contents {
-	background: #ffffff;
+	background-color: #ffffff;
 	color: #000000;
-	font: 1.0em/2.0 monospace;
+
+	font-family: monospace;
+	font-size: 1.0em;
+	line-height: 2.0;
 
 	/* if removed, beware of (top) margin collapses */
 	border: 4px dotted #000000;
