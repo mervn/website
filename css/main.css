@@ -12,6 +12,9 @@ body {
 	font-family: sans-serif;
 	font-size: 1.5em;
 	line-height: 1.5;
+
+	margin: auto;
+	max-width: 48em;
 }
 
 footer {
