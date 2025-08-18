@@ -21,6 +21,8 @@ body {
 
 	margin: auto;
 	max-width: 48em;
+
+	text-align: justify;
 }
 
 footer {
