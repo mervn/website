@@ -1,38 +1,34 @@
 /* Normalize the canvas, to make style consistent across browsers */
 @import "/css/normalize.css";
 
+a {
+	color: #0022aa;
+}
+
 a:hover {
-	background-color: #efefef;
+	background-color: #ffff00;
 }
 
 body {
-	background-color: #efefef;
-	color: #343434;
+	background-color: #f8f4f2;
+	color: #343231;
 
 	font-family: sans-serif;
-	font-size: 1.5em;
-	line-height: 1.5;
+	font-size: 1.2em;
+	line-height: 1.8;
 
 	margin: auto;
 	max-width: 48em;
 }
 
 footer {
-	color: #969ca3;
 	font-size: small;
 	text-align: center;
 }
 
 .table-of-contents {
-	background-color: #ffffff;
-	color: #000000;
-
 	/* if removed, beware of (top) margin collapses */
 	border: 4px dotted #000000;
-
-	font-family: monospace;
-	font-size: 1.0em;
-	line-height: 2.0;
 
 	padding: 0em 2em;
 }
