@@ -27,13 +27,12 @@ footer {
 	background-color: #ffffff;
 	color: #000000;
 
+	/* if removed, beware of (top) margin collapses */
+	border: 4px dotted #000000;
+
 	font-family: monospace;
 	font-size: 1.0em;
 	line-height: 2.0;
 
-	/* if removed, beware of (top) margin collapses */
-	border: 4px dotted #000000;
-
-	/* influenced by the "rule of thirds" */
-	padding: 0 17% 0 34%;
+	padding: 0em 2em;
 }
