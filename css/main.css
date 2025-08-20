@@ -34,3 +34,18 @@ footer {
 .indent {
 	padding: 0em 2em;
 }
+
+@media (prefers-color-scheme: dark) {
+	a {
+		color: #ffff00;
+	}
+
+	a:hover {
+		background-color: #0022aa;
+	}
+
+	body {
+		background-color: #343231;
+		color:  #f8f4f2;
+	}
+}
