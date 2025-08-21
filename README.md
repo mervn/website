@@ -1,37 +1,47 @@
 # website
 
-This repo shares some of my personal information, and resources, in HTML format.
-Sometimes referred to as "my personal corner of the internet".
+A simple small (website) ; Personal corner of the internet.
 
-It is setup to be a backing-store - with an index.html and standard(ish) assets.
-To view the website, either use a remote:
+---
 
-1. `https://mergesort.net`
+## Description
 
-or a localhost:
+This is both a template and reference implementation for a simple small website.
+It tries it best to be accessible (APCA bronze-level compliant), modern (HTML5),
+open (0BSD license), and small (less than 512kB).
 
-1. In a terminal, run
+See the reference implementation at [https://mergesort.net](https://mergesort.net)
+.
 
-        # Where this document itself is located.
-        cd /path/to/git/dir
+## Changes
 
-        # Python 3.0, or later, must be installed.
-        python -m http.server
+The reference implementation uses the Cloudflare compute and network. This means
+that, changes from the build tool aside, the source will be changed.
 
-2. `http://localhost:8000`
+Here is a list of known changes:
 
-## Pipeline
-
-The view through a remote uses the Cloudflare network. To avoid Cloudflare, view
-through a localhost; but some functions may be degraded or missing.
-
-The source is not transformed before deployment.
+- JavaScript injection: At least one instance observed (email protection).
 
 ## License
 
-The ***code*** of this repo is licensed under the [0BSD](LICENSE). Includes CSS,
-HTML element tag, JavaScript, and general tooling.
+On a webpage, correlating content to the correct license can be difficult. The
+following lists will try to aid this process.
 
-The ***content*** of this repo is multi-licensed, and the license is recorded in
-the webpage footer - no license means all-rights-reserved. Includes HTML element
-text, general icon, and general multimedia.
+[0BSD](LICENSE):
+
+- HTML element tag placement (i.e \<p\>)
+- LICENSE
+- README.md
+- css/main.css
+- robots.txt
+
+MIT:
+
+- css/normalize.css
+
+All-Rights-Reserved:
+
+- HTML content (i.e the text *in-between* \<p\>)
+
+The footer of each page tries its best to track the active license(s). For
+example, some pages may have a more permissive license for HTML content.
